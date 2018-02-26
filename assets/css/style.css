@@ -1,0 +1,137 @@
+/* Basic containers*/
+
+body {
+    background: url("../images/patternhead61b-thumb.png");
+    margin-left: 5px;
+}
+
+.header {  
+  background: rgb(235, 123, 18); 
+  position: relative;  
+  height: 95px;
+  width: 26%;
+  margin-top: 8px;
+  margin-bottom: 8px; 
+}
+
+h1 {
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    text-align: left;
+    line-height: 85px;
+    
+}
+
+
+.numMatch {
+    height: 120px;
+    width: 200px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    background: green;
+    font-size: 34px;
+    color: purple;
+    margin-right: 8px;
+    float: left;  
+}
+
+.winLoss {
+    height: 120px;
+    width: 100px;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    background: rgb(82, 136, 172);
+    color: green;
+    font-size: 22px;
+    font-weight: bolder;
+    line-height: 18px;
+    float: left;  
+}
+
+.gems {
+    clear: both;
+}
+
+h3 {
+    color: white;
+    width: 200px;
+    height: 40px;
+    background: rgb(49, 148, 143);
+    margin-top: 4px;
+    margin-bottom: 8px;
+    line-height: 40px;
+}   
+.userTotal {
+    height: 120px;
+    width: 200px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    background: rgb(49, 148, 143);
+    font-size: 34px;
+    color: white;
+    margin-right: 8px;
+}
+
+#finalTotal {
+    color: white;
+    font-size: 34;
+}
+/*to cover media responsiveness*/
+@-ms-viewport{
+    width: device-width;
+  }
+/*
+  These rules take effect when the browser's width
+  is either 900px or less.
+*/
+@media screen and (max-width: 1100px) {
+    
+    body {
+      width: 100% }
+    .header {
+        width: 35% 
+    }
+    
+}  
+/*
+  These rules take effect when the browser's width
+  is either 900px or less.
+*/
+@media screen and (max-width: 900px) {
+    
+    body {
+      width: 100% }
+    .header {
+        width: 35% 
+    }
+    
+}
+ /*
+  These rules take effect when the browser's width
+  is either 798px or less.
+*/
+@media screen and (max-width: 798px) {
+    
+    body {
+      width: 100% }
+
+    
+    .header {
+        width: 50%  
+    }   
+}
+/*
+  These rules take effect when the browser's width
+  is either 600px or less.
+*/
+@media screen and (max-width: 600px) {
+    
+    body {
+      width: 100% }
+
+    
+    .header {
+        width: 50%  
+    }   
+}
